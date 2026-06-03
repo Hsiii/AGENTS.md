@@ -1,5 +1,5 @@
 ## Edit & Commit
-- Commit your changes in atomic conventional-commit chunks, prefer patch staging to exclude unrelated edits, and use `style` only for formatting-only changes
+- Always commit your changes in atomic conventional-commit chunks, prefer patch staging to exclude unrelated edits, and use `style` only for formatting-only changes
 
 ## Frontend
 - Use `bun` when applicable
