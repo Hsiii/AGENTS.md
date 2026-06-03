@@ -7,7 +7,6 @@
 
 ## Frontend
 - Use `bun` when applicable
-- Read and follow the frontend design skill
 - Reuse existing components unless a new one is necessary
 - Apply outlines only on `:focus-visible` not on `:focused`
 - Always tokenize colors, fonts, and spacing
