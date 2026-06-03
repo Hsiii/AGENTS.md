@@ -1,5 +1,5 @@
 - Always commit atomic conventional-commit changes, prefer patch staging to avoid unrelated edits, and use `style` only for formatting-only changes
-- Use `bun` when applicable
+- Use `bun`
 - Reuse existing components unless necessary
 - Apply outlines only on `:focus-visible`, not on `:focused`
 - Tokenize colors, fonts, and spacing
