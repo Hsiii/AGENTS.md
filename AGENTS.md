@@ -1,6 +1,4 @@
 - Always commit atomic conventional-commit changes, prefer patch staging to avoid unrelated edits, and use `style` only for formatting-only changes
 - Use `bun`
-- Tokenize colors, fonts, and spacing
-- Prefer dimensions and spacing in multiples of 4
-- When changing CSS, check whether the rule is overridden or overrides anything unintended
+- When changing CSS, tokenize colors, fonts, and spacing, prefer multiples of 4 for dimensions and spacing, and check whether the rule is overridden or overrides anything unintended
 - Use Chrome for browser tasks unless told otherwise
