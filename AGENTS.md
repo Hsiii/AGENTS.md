@@ -15,5 +15,4 @@
 - When fixing css, check all cascade for collision
 
 ## Browser & Chrome
-- For TS-based Chrome extensions, rebuild after changes
 - For Browser Use, use Chrome
