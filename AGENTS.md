@@ -1,4 +1,3 @@
 - Always commit atomic conventional-commit changes, prefer patch staging to avoid unrelated edits, and use `style` only for formatting-only changes
-- Use `bun`
 - When changing CSS, use tokens instead of hardcoded values, keep sizes and spacing in multiples of 4, and check whether the rule is overridden or overrides anything unintended
-- Use Chrome for browser tasks unless told otherwise
+- Use `bun` and Chrome
