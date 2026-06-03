@@ -1,7 +1,5 @@
 - Always commit atomic conventional-commit changes, prefer patch staging to avoid unrelated edits, and use `style` only for formatting-only changes
 - Use `bun`
-- Reuse existing components unless necessary
-- Apply outlines only on `:focus-visible`, not on `:focused`
 - Tokenize colors, fonts, and spacing
 - Prefer dimensions and spacing in multiples of 4
 - When changing CSS, check whether the rule is overridden or overrides anything unintended
