@@ -1,7 +1,7 @@
 ## Edit & Commit
 - Always commit your changes, do it in atomic chunks w/ conventional commits
 - Never misuse `style` type, it's for format changes
-- Stage only hunks you changed, never commit unrelated edits
+- Prefer patch staging when it helps exclude unrelated edits
 - There always might be other agents editing
 - Run git commands serially to prevent stale git lock
 
