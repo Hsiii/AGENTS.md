@@ -3,7 +3,6 @@
 - Never misuse `style` type, it's for format changes
 - Prefer patch staging when it helps exclude unrelated edits
 - There always might be other agents editing
-- Run git commands serially to prevent stale git lock
 
 ## Frontend
 - Use `bun` when applicable
