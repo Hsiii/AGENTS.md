@@ -2,15 +2,18 @@
 
 My AGENTS.md, optimized for frontend development with GPT 5.5 in Codex.
 
-## Why
+## What it does
 
-- Always commit changes so I can make small parallel changes across threads without worktrees.
+### Ensure Proper Commits
 - Force agents to use correct [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) so commit history stays readable.
-- Avoid implementing everything at once and splitting later because patch staging takes much longer that way.
-- Prefer `bun` in suitable projects so agents do not default to `npm` in repos that already use Bun, keeping tooling consistent.
-- Prefer `bunx` for missing tools so absent global packages like `vercel` or `wrangler` do not block shell workflows.
-- Use CSS tokens because that is the intended styling discipline for this repo.
-- Keep CSS sizes and spacing in multiples of 4 because that is a common design principle.
-- Check CSS override behavior because agents often miss it and break styles unintentionally.
-- Assume a dev server is already running on localhost, and only start one if needed, so different agents do not spin up their own servers.
+- Prevent agents from implementing everything at once THEN figure out how to split the huge changes into commits later, that takes incredibly long.
+### Make Tooling Faster
+- Prefer `bun` in suitable projects so agents do not default to slower `npm` commands in repos that already use Bun.
+- Tell agents about `bunx`, so absent global packages do not block shell workflows.
+### Unslop the CSS
+- Force agents to use CSS tokens instead of splashing hard-coded values everywhere.
+- Force CSS sizes and spacing in multiples of 4.
+- Ask agents to check CSS cascade behavior because agents always miss it and break styles unintentionally.
+### Enhance DX
+- Prevent different agents from spinning up their own dev servers.
 - Leave the in-app browser intact so an agent does not close it after one prompt and interrupt further annotation.
