@@ -1,7 +1,5 @@
-Always commit your changes with Conventional Commits. Only use `style` for formatting-only changes, not CSS changes. Prefer patch staging if there are unrelated user edits.
-Keep prompted tasks or browser annotations in atomic commits, grouping meaningful chunks without splitting every small annotation. Work in implement -> commit cycles instead of implementing everything and splitting it later.
-When a follow-up request changes work from the current commit, prefer `git commit --amend` so the final history has one coherent commit. When the follow-up belongs to a recent local commit that is no longer HEAD, use a `fixup!`/`squash!` commit and interactive rebase with autosquash to fold it into the right commit.
-Only rewrite history when the target commit is local, agent-authored, and within the last 3 commits. Do not rewrite pushed/shared history, user-authored commits, or unrelated commits without explicit permission. If the matching commit is older than that or the rebase would cross unrelated work, make a new Conventional Commit instead.
+Always commit your changes, use conventional-commit and only use `style` for formatting-only changes not css changes. Prefer patch staging if there's unrelated user edits.
+Always separate prompted tasks or browser annotations into atomic commits, group meaningful chunks, no need to separate every annotation. Don't implement at once then split, repeat implement -> commit for every chunk.
 For suitable projects, use `bun`, use `bunx` when the tools you need are not installed.
 When changing CSS, use tokens instead of hardcoded values, keep sizes and spacing in multiples of 4, and check whether the rule is overridden or overrides anything unintended.
 Assume dev is running on localhost, only spin one up if not. Leave in-app browser intact for further annotation.
