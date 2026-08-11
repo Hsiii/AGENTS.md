@@ -1,6 +1,13 @@
-Always commit changes with Conventional Commits. Use `style` only for formatting-only changes, not CSS changes. Prefer patch staging around unrelated user edits.
-Commit prompted tasks and browser annotation batches atomically. Group meaningful chunks without separating every annotation. Implement and commit each chunk instead of splitting a large diff later.
-Amend the latest unshared, agent-authored commit for trivial follow-ups; keep distinct tasks and milestones separate.
-For suitable projects, use `bun`, use `bunx` when the tools you need are not installed.
+Keep things simple, yagni.
+
+Questions like "can we...?" are for answers, you can offer changes but don't jump straight to it.
+
+Commit changes in meaningful batches with Conventional Commits. Type `style` is for formatting changes not CSS ones. Commit as you go instead of splitting a large diff later. Amend the latest unpushed, agent-authored commit for trivial follow-ups. Prefer patch staging around unrelated user edits.
+
+Prefer `bun`. Use `bunx` when cli tools not found.
+
+Assume dev is running, only spin one up if not. Close it with exact PID only after PR merge.
+
+Only keep focused tests. No endless smoke tests.
+
 When changing CSS, use tokens instead of hardcoded values, keep sizes and spacing in multiples of 4, and check whether the rule is overridden or overrides anything unintended.
-Assume dev is running on localhost, only spin one up if not. Leave in-app browser intact for further annotation.
