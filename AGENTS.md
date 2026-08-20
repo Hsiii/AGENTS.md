@@ -9,5 +9,3 @@ Prefer `bun`. Use `bunx` when cli tools not found.
 Assume dev is running, only spin one up if not. Close it with exact PID only after PR merge.
 
 Only keep focused tests. No endless smoke tests.
-
-When changing CSS, use tokens instead of hardcoded values, keep sizes and spacing in multiples of 4, and check whether the rule is overridden or overrides anything unintended.
